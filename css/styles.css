@@ -1,0 +1,15 @@
+/* Hide from user until click */
+.hidden {
+    display: none;
+  }
+
+/* Give it a fancy pointer and transition effect so user understands it's clickable */
+#city {
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#city:hover { 
+  color: #ffffff;
+  background-color: #007bff;
+}
